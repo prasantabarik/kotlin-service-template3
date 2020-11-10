@@ -1,0 +1,19 @@
+name: kotlin-service-template3
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: 59ae6b648ca3437aae3a.westeurope.aksapp.io
+framework: java11
+
+database:
+  required: false
+
+
+ingress:
+  required: true
+  site: kotlin-service-template3
+  path: /api/v1/service-template
+
+image:
+  name: kotlin-service-template3
+  version: latest
