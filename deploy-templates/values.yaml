@@ -12,7 +12,7 @@ database:
 ingress:
   required: true
   site: kotlin-service-template3
-  path: /api/v1/service-template
+  path: /servicetemplate/api/v1/service-template
 
 image:
   name: kotlin-service-template3
