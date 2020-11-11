@@ -8,7 +8,7 @@ spring:
       database: service-template-data
       uri: mongodb://localhost:27017/service-template-data
 server:
-  port: 8097
+  port: 8080
   application:
     name: service-kotlin-template
 ##Properties for Prometheus End Points
@@ -32,6 +32,6 @@ azure:
 
 service:
   perf-urls:
-    get-model-url: "http://localhost:8097/servicetemplate/api/v1/getModel"
+    get-model-url: "http://localhost:8080/servicetemplate/api/v1/getModel"
   test-data:
     id: "1"
